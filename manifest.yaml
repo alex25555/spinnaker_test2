@@ -15,7 +15,7 @@
           app: nginx
       spec:
         containers:
-          - image: index.docker.io/alex25555/ubuntu:nginx8
+          - image: index.docker.io/alex25555/ubuntu
             name: nginx
             ports:
               - containerPort: 80
